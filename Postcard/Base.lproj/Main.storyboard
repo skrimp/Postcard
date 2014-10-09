@@ -90,6 +90,15 @@
                                     <rect key="frame" x="224" y="131" width="80" height="80"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7C4-sB-zVf">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="384" width="288" height="21"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ya-aM-PNs">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.62884542805878141" blue="0.25244111208718589" alpha="1" colorSpace="calibratedRGB"/>
@@ -112,6 +121,7 @@
                                 <exclude reference="t01-Iu-28n"/>
                                 <exclude reference="pTi-OA-4JG"/>
                                 <exclude reference="LFl-31-igL"/>
+                                <exclude reference="7C4-sB-zVf"/>
                                 <exclude reference="3ya-aM-PNs"/>
                             </mask>
                         </variation>
@@ -121,6 +131,7 @@
                                 <include reference="t01-Iu-28n"/>
                                 <include reference="pTi-OA-4JG"/>
                                 <include reference="LFl-31-igL"/>
+                                <include reference="7C4-sB-zVf"/>
                                 <include reference="3ya-aM-PNs"/>
                             </mask>
                         </variation>
@@ -129,6 +140,7 @@
                         <outlet property="enterMessageTextField" destination="t01-Iu-28n" id="sU6-v0-GZV"/>
                         <outlet property="enterNameTextField" destination="Tx9-cb-99G" id="02W-FT-uKE"/>
                         <outlet property="messageLabel" destination="pTi-OA-4JG" id="fmC-Hj-kxZ"/>
+                        <outlet property="nameLabel" destination="7C4-sB-zVf" id="26I-W2-mgW"/>
                         <outlet property="sendMailButton" destination="3ya-aM-PNs" id="EJv-Zt-phV"/>
                     </connections>
                 </viewController>
